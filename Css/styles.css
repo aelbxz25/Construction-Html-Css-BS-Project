@@ -1,0 +1,275 @@
+.first-navbar {
+    background-color: gold !important;
+    color: black;
+}
+
+.first-navbar a {
+    color: black !important;
+}
+
+.second-navbar {
+    background-color: #222533 !important;
+}
+
+.second-navbar .navbar-brand a {
+    color: #fff !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+}
+
+.second-navbar a {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.second-navbar a p {
+    font-weight: lighter;
+    font-size: 12px;
+    margin: 0;
+    opacity: 0.7;
+}
+
+.second-navbar a .fa-solid {
+    color: #ffd700;
+}
+
+#sec-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../Images/banner.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#sec-1 h1 span,
+#sec-2 h1 {
+    color: gold;
+    font-weight: bold;
+}
+
+#sec-2 h4 {
+    font-weight: bold;
+}
+
+#sec-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7)),
+        url("../Images/bg4.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#sec-3 h3 {
+    color: gold;
+    font-weight: bold;
+}
+
+#sec-3 .card-body {
+    color: black;
+    font-weight: bold;
+}
+
+#sec-3 .card {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff !important;
+}
+
+#sec-3 .image-circle {
+    transform: scale(1.5) translate(0px, -15px);
+    width: 100px;
+    height: 100px;
+}
+
+#sec-3 .card-body {
+    color: #fff !important;
+}
+
+#sec-3 .card-body h5 {
+    color: gold !important;
+}
+
+#sec-4 {
+    padding-bottom: 45px;
+}
+
+#sec-4 .figure img {
+    width: 100%;
+}
+
+#sec-4 h3 {
+    font-weight: bold;
+}
+
+#sec-4 .figure h6 {
+    background-color: black;
+    color: white !important;
+    bottom: 0;
+}
+
+#sec-4 .figure button {
+    color: white !important;
+}
+
+#sec-5 {
+    background: linear-gradient(rgba(59, 62, 57, 0.9) 0%, rgba(73, 79, 69, 0.9)),
+        url("../Images/bg2.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#sec-5 img {
+    width: 100%;
+}
+
+#sec-6 {
+    background: url("../Images/bg3.jpg");
+    background-size: cover;
+}
+
+#sec-6 button {
+    margin-left: 10px;
+    background-color: gray;
+    outline: none;
+    border: none;
+}
+
+#sec-6 article {
+    background-color: rgb(255, 203, 15, 0.6);
+}
+
+#sec-6 .sec-6 {
+    color: grey;
+}
+
+#sec-6 .sec-6 h1 {
+    font-weight: 400;
+}
+
+.grey-space {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85)),
+        url("../Images/China city.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+footer .img {
+    margin-right: auto;
+    width: 80px !important;
+    margin-left: auto;
+}
+
+footer ul li {
+    list-style: none !important;
+    list-style-type: none !important;
+}
+
+footer ul li img {
+    width: 40px;
+}
+
+/*							testimonials						*/
+.testimonials-clean {
+    color: #313437;
+}
+
+.testimonials-clean h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+#sec-6 .item {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .first-navbar {
+        display: none;
+    }
+    .testimonials-clean h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.testimonials-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.testimonials-clean .intro p {
+    margin-bottom: 0;
+}
+
+.testimonials-clean .people {
+    padding: 50px 0 20px;
+}
+
+.testimonials-clean .item {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+}
+
+.testimonials-clean .item .box {
+    padding: 30px;
+    background-color: #e5e5e5;
+    position: relative;
+}
+
+.testimonials-clean .item .box-active {
+    padding: 30px;
+    background-color: #ffcb0f;
+    color: white !important;
+    position: relative;
+}
+
+.box-block-ico {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-block-ico .box-block-ico-image {
+    transform: translateY(-23px);
+}
+
+.testimonials-clean .item .author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    padding-left: 25px;
+}
+
+.testimonials-clean .item .name {
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: inherit;
+}
+
+.testimonials-clean .item .title {
+    font-size: 13px;
+    color: #9da9ae;
+}
+
+.testimonials-clean .item .description {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.testimonials-clean .item img {
+    /*max-width: 40px;*/
+    /*float: left;*/
+    /*margin-right: 12px;*/
+    margin-top: -5px;
+}
